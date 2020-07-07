@@ -40,6 +40,11 @@ div{
     border-style: solid;
     border-radius: 100px;
     width: 400px;
+    outline-style: hidden;
+}
+#searchbar:focus{
+        border-color:transparent!important;
+        outline:none;
 }
 
 #searchbar:hover{
